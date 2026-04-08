@@ -189,6 +189,13 @@ a {
   letter-spacing: -1px;
 }
 
+.logo-img {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
 .nav-links {
   display: flex;
   align-items: center;
@@ -589,6 +596,14 @@ a {
   font-size: 2.5rem;
   font-weight: 900;
   letter-spacing: -2px;
+}
+
+.footer-logo-img {
+  height: 80px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 20px;
 }
 
 .footer-motto {
