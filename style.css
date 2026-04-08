@@ -207,16 +207,28 @@ a {
   display: flex;
   align-items: center;
   gap: 40px;
-  font-weight: 600;
-  font-size: 0.9rem;
+  font-weight: 700;
+  font-size: 0.95rem;
 }
 
 .nav-links a:not(.btn) {
-  opacity: 0.8;
+  color: var(--deep-navy);
+  opacity: 0.95;
+  transition: color var(--transition), opacity var(--transition);
 }
 
 .nav-links a:not(.btn):hover {
   opacity: 1;
+  color: var(--gold);
+}
+
+.navbar.scrolled .logo-text,
+.navbar.scrolled .nav-links a:not(.btn) {
+  color: var(--white);
+  opacity: 1;
+}
+
+.navbar.scrolled .nav-links a:not(.btn):hover {
   color: var(--gold);
 }
 
