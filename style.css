@@ -687,20 +687,338 @@ a {
   }
 }
 
-@media (max-width: 600px) {
-  .hero-text h1 {
-    font-size: 2.8rem;
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
   }
   
-  .section {
-    padding: 80px 0;
+  h2 {
+    font-size: 2rem;
   }
   
   .navbar {
-    padding: 10px 20px;
+    width: 95%;
+    padding: 12px 25px;
+  }
+  
+  .nav-container {
+    flex-wrap: wrap;
+  }
+  
+  .logo-text {
+    font-size: 1rem;
+  }
+  
+  .logo-img {
+    height: 40px;
   }
   
   .nav-links {
-    display: none;
+    gap: 20px;
+    font-size: 0.85rem;
+  }
+  
+  .btn {
+    padding: 14px 28px;
+    font-size: 0.9rem;
+  }
+  
+  .container {
+    padding: 0 25px;
+  }
+  
+  .section {
+    padding: 60px 0;
+  }
+  
+  .hero-pre-title {
+    font-size: 0.85rem;
+    letter-spacing: 1.5px;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.8rem;
+    line-height: 1.2;
+  }
+  
+  .hero-text p {
+    font-size: 1rem;
+  }
+  
+  .hero-buttons {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .exclusive-badge {
+    font-size: 0.9rem;
+  }
+  
+  .section-subtitle {
+    font-size: 0.85rem;
+  }
+  
+  .portfolio-item {
+    padding: 30px;
+  }
+  
+  .item-visual img {
+    height: 200px;
+  }
+  
+  .standards-list li {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .step-num {
+    margin-bottom: 15px;
+  }
+  
+  .footer-top {
+    margin-bottom: 40px;
+  }
+  
+  .footer-logo-img {
+    height: 60px;
+  }
+  
+  .footer-motto {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 15px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.6rem;
+  }
+  
+  h3 {
+    font-size: 1.3rem;
+  }
+  
+  .hero-text h1 {
+    font-size: 2rem;
+    line-height: 1.1;
+  }
+  
+  .hero-pre-title {
+    font-size: 0.75rem;
+  }
+  
+  .hero-text p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  .navbar {
+    padding: 10px 18px;
+    width: 98%;
+    top: 15px;
+  }
+  
+  .logo-text {
+    font-size: 0.9rem;
+  }
+  
+  .logo-img {
+    height: 35px;
+  }
+  
+  .nav-links {
+    gap: 12px;
+    font-size: 0.8rem;
+  }
+  
+  .btn {
+    padding: 12px 22px;
+    font-size: 0.85rem;
+    gap: 8px;
+  }
+  
+  .btn .icon {
+    font-size: 1rem;
+  }
+  
+  .btn-large {
+    width: 100%;
+  }
+  
+  .container {
+    padding: 0 18px;
+  }
+  
+  .section {
+    padding: 50px 0;
+  }
+  
+  .section-header {
+    margin-bottom: 40px;
+  }
+  
+  .section-subtitle {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  
+  .hero-content {
+    padding-top: 80px;
+    gap: 40px;
+  }
+  
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+  }
+  
+  .hero-buttons a {
+    width: 100%;
+  }
+  
+  .exclusive-badge {
+    font-size: 0.8rem;
+    padding: 8px 16px;
+  }
+  
+  .experience-card {
+    padding: 25px 20px;
+  }
+  
+  .experience-card h3 {
+    font-size: 1.8rem;
+  }
+  
+  .experience-card p {
+    font-size: 0.85rem;
+  }
+  
+  .portfolio-item {
+    padding: 25px 20px;
+  }
+  
+  .item-visual {
+    margin-bottom: 25px;
+  }
+  
+  .item-visual img {
+    height: 150px;
+    border-radius: 15px;
+  }
+  
+  .item-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .item-content p {
+    font-size: 0.9rem;
+  }
+  
+  .statement-large {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+  
+  .standards-list {
+    gap: 30px;
+  }
+  
+  .standards-list li {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .step-num {
+    width: 45px;
+    height: 45px;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    align-self: center;
+  }
+  
+  .standards-visual {
+    margin-bottom: 30px;
+  }
+  
+  .standard-img {
+    height: 250px;
+  }
+  
+  .quality-stamp {
+    padding: 12px 18px;
+    font-size: 0.85rem;
+  }
+  
+  .consultation-card {
+    flex-direction: column;
+    padding: 40px 25px;
+    text-align: center;
+  }
+  
+  .consultation-card h2 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+  }
+  
+  .consultation-card p {
+    font-size: 0.95rem;
+  }
+  
+  .consultation-actions {
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+    margin-top: 25px;
+  }
+  
+  .consultation-actions a {
+    width: 100%;
+  }
+  
+  .location-summary {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .location-item {
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  
+  .location-item .icon {
+    font-size: 1.5rem;
+    min-width: 35px;
+  }
+  
+  .location-item p {
+    font-size: 0.9rem;
+  }
+  
+  .footer-top {
+    margin-bottom: 30px;
+  }
+  
+  .footer-logo-img {
+    height: 50px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-motto {
+    font-size: 0.9rem;
+  }
+  
+  .footer-bottom {
+    padding-top: 25px;
+    font-size: 0.85rem;
   }
 }
