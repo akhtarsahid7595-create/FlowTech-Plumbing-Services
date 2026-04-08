@@ -640,6 +640,21 @@ a {
   font-size: 0.85rem;
 }
 
+/* Map Container */
+.map-container {
+  width: 100%;
+  margin-top: 60px;
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-premium);
+}
+
+.map-container iframe {
+  display: block;
+  width: 100%;
+  border-radius: var(--border-radius-lg);
+}
+
 /* Animations */
 .animate-on-load {
   opacity: 0;
@@ -1020,5 +1035,13 @@ a {
   .footer-bottom {
     padding-top: 25px;
     font-size: 0.85rem;
+  }
+  
+  .map-container {
+    margin-top: 40px;
+  }
+  
+  .map-container iframe {
+    height: 300px;
   }
 }
